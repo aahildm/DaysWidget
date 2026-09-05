@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/widget_bg"
+    android:padding="12dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REMAINING"
+        android:textSize="10sp"
+        android:textColor="#99FFFFFF"
+        android:letterSpacing="0.12" />
+    <TextView
+        android:id="@+id/tv_days_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="--"
+        android:textSize="52sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-light" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="days"
+        android:textSize="13sp"
+        android:textColor="#CCFFFFFF" />
+    <View
+        android:layout_width="32dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#44FFFFFF" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6 Nov 2026"
+        android:textSize="11sp"
+        android:textColor="#AAFFFFFF" />
+</LinearLayout>
